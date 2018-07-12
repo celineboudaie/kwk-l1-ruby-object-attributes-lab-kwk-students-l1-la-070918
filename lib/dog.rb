@@ -10,7 +10,7 @@ class Dog
   end 
   
 
-def breed= (new_breed)
+def breed=(new_breed)
   @breed= "Beagle"
 end 
 

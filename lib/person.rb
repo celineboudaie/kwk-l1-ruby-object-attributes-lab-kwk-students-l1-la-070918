@@ -1,24 +1,24 @@
 # person.rb
 class Person
-def initalize(name,job)
-  @name=name
-  @job=job
+# def initalize(name,job)
+#   @name=name
+#   @job=job
+# end
+
+def name
+  @name= name
 end
 
-def name=(new_name)
-  @name= "Beyonce"
+def name=(name)
+  @name= name
 end
 
-def name=(new_name)
-  @name= new_name
+def job
+  @job= job
 end
 
-def job=(new_job)
-  @job= "Singer"
-end
-
-  def job=(new_job)
-  @job= new_job
+  def job=(job)
+  @job= job
 end
 
 end

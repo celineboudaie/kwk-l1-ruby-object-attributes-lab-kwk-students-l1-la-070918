@@ -6,4 +6,5 @@ def initialize(name,job)
 end
 
 def name=(new_name)
-  @name=
+  @name= "Beyonce"
+  

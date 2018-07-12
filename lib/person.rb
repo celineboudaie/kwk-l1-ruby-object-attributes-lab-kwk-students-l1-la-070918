@@ -9,3 +9,6 @@ def name=(new_name)
   @name= "Beyonce"
 end
 
+def job=(new_job)
+  @job= "Singer"
+  
